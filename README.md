@@ -15,7 +15,7 @@ Backend Logic, REST endpoints created and deployed leveraging on the AWS Service
 "OK"
 
 2. GET /menu/{menu-id}
-(exam-venv) Abhisheks-MacBook-Pro:final abhishekchaudhary$ curl -X GET -H "Content-type: application/json" -H "Accept: application/json" https://441popqhrecute-api.us-west-2.amazonaws.com/LambdaDynamoDB/menu/menu1
+(exam-venv) Abhisheks-MacBook-Pro:final abhishekchaudhary$ curl -X GET -H "Content-type: application/json" -H "Accept: application/json" https://441popqhr5.execute-api.us-west-2.amazonaws.com/LambdaDynamoDB/menu/menu1
 {"menu_id": "menu1", "selection": ["Cheese", "Pepperoni"], "price": ["3.50", "7.00", "10.00", "15.00", "20.00"], "store_hours": {"Wed": "10am-10pm", "Sun": "11am-12pm", "Fri": "10am-10pm", "Tue": "10am-10pm", "Mon": "10am-10pm", "Thu": "10am-10pm", "Sat": "11am-12pm"}, "store_name": "Pizza Hut", "size": ["Slide", "Small", "Medium", "Large", "X-Large"]}
 
 3. PUT /menu/{menu-id}
